@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Medi Charm</string>
+    <string name="welocme_to_medi_charm">Welocme To Medi Charm</string>
+    <string name="lets_just_goo">Lets Just Goo...</string>
+    <string name="login">Login</string>
+    <string name="enter_e_mail">Enter E-Mail</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="don_t_have_any_account">don\'t have any account</string>
+    <string name="signup">SignUp</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="adready_have_an_account">Adready have an account</string>
+    <string name="register">Register</string>
+    <string name="todo">TODO</string>
+    <string name="save_reminder">Save Reminder</string>
+    <string name="dosage">Dosage</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="add_medicine_reminder">Add Medicine Reminder</string>
+</resources>

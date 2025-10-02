@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E3F2FD">
+
+    <!-- Menu button (top-left) -->
+    <ImageView
+        android:id="@+id/menu_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/menu"
+        android:contentDescription="Menu"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    <!-- RecyclerView for reminders -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewReminders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/menu_btn"
+        android:layout_above="@id/add_time"
+        android:clipToPadding="false"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Add reminder button (bottom-right) -->
+    <ImageView
+        android:id="@+id/add_time"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/add"
+        android:contentDescription="Add Reminder"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:elevation="8dp"/>
+
+</RelativeLayout>
