@@ -4,17 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#E3F2FD">
+    android:background="@drawable/baground_image">
 
     <!-- Menu button (top-left) -->
     <ImageView
         android:id="@+id/menu_btn"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/menu"
-        android:contentDescription="Menu"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/baseline_menu_24"
+        android:contentDescription="@string/menu"
         android:padding="8dp"
         android:background="?attr/selectableItemBackgroundBorderless"/>
 
@@ -37,7 +36,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:src="@drawable/add"
-        android:contentDescription="Add Reminder"
+        android:contentDescription="@string/add_reminder"
         android:padding="12dp"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:elevation="8dp"/>

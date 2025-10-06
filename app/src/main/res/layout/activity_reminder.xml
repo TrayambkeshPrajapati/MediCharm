@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E3F2FD"
+    android:background="@color/white"
     android:padding="16dp">
 
     <LinearLayout
@@ -15,26 +15,28 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add Medicine Reminder"
+            android:text="@string/add_medicine_reminder"
             android:textSize="24sp"
-            android:textColor="#0D47A1"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:layout_marginBottom="24dp"/>
 
         <EditText
+            android:background="@drawable/rounder_corner"
             android:id="@+id/editMedicineName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Medicine Name"
+            android:hint="@string/medicine_name"
             android:padding="12dp"
             android:layout_marginBottom="16dp"
             android:textColor="#000"/>
 
         <EditText
+            android:background="@drawable/rounder_corner"
             android:id="@+id/editDosage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Dosage"
+            android:hint="@string/dosage"
             android:padding="12dp"
             android:layout_marginBottom="16dp"
             android:textColor="#000"/>
@@ -43,15 +45,15 @@
             android:id="@+id/timePicker"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:timePickerMode="spinner"
+            android:timePickerMode="clock"
             android:layout_marginBottom="24dp"/>
 
         <Button
             android:id="@+id/btnSaveReminder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Save Reminder"
-            android:backgroundTint="#0D47A1"
+            android:text="@string/save_reminder"
+            android:backgroundTint="@color/green"
             android:textColor="#FFF"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>

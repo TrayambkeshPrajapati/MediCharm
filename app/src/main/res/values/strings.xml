@@ -15,4 +15,7 @@
     <string name="dosage">Dosage</string>
     <string name="medicine_name">Medicine Name</string>
     <string name="add_medicine_reminder">Add Medicine Reminder</string>
+    <string name="menu">Menu</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="dosage_at_time">Dosage at Time</string>
 </resources>
